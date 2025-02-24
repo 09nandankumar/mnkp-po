@@ -1,0 +1,157 @@
+/* Custom Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: hsl(0, 0%, 20%);
+}
+
+section {
+  padding: 80px 0;
+}
+
+.navbar {
+  padding: 1rem 0;
+  background-color: #fff !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.nav-link {
+  position: relative;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+} */
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  padding: 20px 0;
+}
+
+/* Button Animation */
+.btn-primary {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+
+/* Custom Styles for Experience Section */
+.experience-container {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #e9ecef;
+}
+
+.experience-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.experience-container h4 {
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.experience-container p.text-muted {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.experience-container ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.experience-container ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.experience-container i {
+  color: #007bff;
+}
+
+/* Custom Styles for Experience Section
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card h4 {
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.card p.text-muted {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+} */
+
+/* 
+Dark Mode Styles
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar.dark-mode {
+  background-color: #1a1a1a !important;
+}
+
+.navbar.dark-mode .navbar-brand,
+.navbar.dark-mode .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar.dark-mode .navbar-toggler-icon {
+  filter: invert(1);
+} */
